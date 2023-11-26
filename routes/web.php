@@ -16,7 +16,7 @@ use App\Models\Song;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/songs_static', function () {
+/*Route::get('/songs_static', function () {
     $song1 = new Song("","","",120);
     $song1->setTitle("Stan");
     $song1->setArtist("Eminem");
@@ -30,7 +30,10 @@ Route::get('/songs_static', function () {
     $song3->setArtist("A P Dhillon");
   
     return view('songs', [ 'songs' => [ $song1, $song2, $song3 ] ]); 
-  });
+  });*/
+  Route::get('/songs_static', function () {
+    return view('songs_static');
+});
   Route::get('/songs', function () {
     return view('songs', [ 'songs' => Song::all() ] );
 });
