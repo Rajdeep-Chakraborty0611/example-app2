@@ -2,6 +2,7 @@
 /**
  * Class Song represents a music track.
  */
+namespace Practicals;
 class Song {
     private $title; // The title of the song
     private $artist; // The artist or band name
