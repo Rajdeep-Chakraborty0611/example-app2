@@ -26,6 +26,12 @@
             <button>New Playlist</button>
         </div>
     </header>
+    <header class="nav">
+        <h1 class="playlistName">Playlist Name</h1>
+        <h1 class="playlistName">Playlist-1</h1>
+        <button class="b1">Edit Playlist</button>
+        <button class="b2">New Playlist</button>
+    </header>
 
     <!-- Main Content -->
     <main class="main-content">
